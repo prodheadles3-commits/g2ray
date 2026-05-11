@@ -10,7 +10,8 @@
     },
     "ghcr.io/devcontainers/features/github-cli:1": {
       "version": "latest"
-    }
+    },
+    "sshd": "latest"
   },
   "postAttachCommand": {
     "public": "gh codespace ports visibility 443:public -c $CODESPACE_NAME",
